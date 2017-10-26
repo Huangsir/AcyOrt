@@ -1,3 +1,8 @@
+# 修改
+
+1. 增加Overwrite文章的发表时间。
+   * 在文章顶部增加`<!-- datetime: YYYY-mm-dd HH:MM:SS -->`用于替换issue的created_at，迁移博客可以用到。
+
 # AcyOrt
 
 A Node.js blog tool powered by GitHub. Write you blog on `GitHub issue`
