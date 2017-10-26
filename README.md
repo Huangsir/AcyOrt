@@ -1,6 +1,14 @@
 # 修改
 
-1. 增加Overwrite文章的发表时间。在文章顶部增加`<!-- datetime: YYYY-mm-dd HH:MM:SS -->`用于替换issue的created_at，迁移博客可以用到。
+1. 增加Overwrite文章的发表时间。在文章预览区域内增加`<!-- datetime: YYYY-mm-dd HH:MM:SS -->`用于替换issue的created_at，迁移博客可以用到。
+
+例：
+
+```
+<!-- datetime: 2017-10-22 12:33:31 -->
+<!-- more -->
+// 正文
+```
 
 # AcyOrt
 
